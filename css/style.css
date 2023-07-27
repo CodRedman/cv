@@ -1,0 +1,254 @@
+html{
+
+}
+
+/* Body elements */
+body{
+    background: #e2d6d6;
+    display: grid;
+
+}
+
+/* Progress bar to rate skill on percentage basis */
+.progress-bar-set {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #ec6969;
+    text-align: center;
+    white-space: nowrap;
+    background-color: rgb(160, 153, 153) ;
+    transition: width 0.6s ease;
+    border-radius: 30px;
+
+}
+.progress-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #ec6969;
+    text-align: center;
+    white-space: nowrap;
+    background-color: red ;
+    transition: width 0.6s ease;
+}
+.progress, .progress-bar {
+    border-radius: 30px;
+}
+
+
+/* back to top arrow */
+.bac-to-top{
+    display:noe;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: 20px;
+    border-radius: 70%;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding-top: ;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50p;
+}
+
+/* header and bg image*/
+.header{
+    position: ;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+
+}
+
+.background-image{
+    position: absole;
+    opacity: 0.6;
+}
+
+/* Company name */
+#Compagny-name {
+    display: inline-block;
+    color: red;
+    font-size: small;
+    font-family: serif sans-serif 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+}
+
+/* bg image */
+.header{
+   position: relate;
+}
+.header::before{
+    content: '';
+    display: block;
+    position: ;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-image: url(..img/bg_image_1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+/* navigation bar
+
+.top-navbar{
+    overflow: hidden;
+    top: 20px;
+    height: auto;
+    width: 100%;
+    padding: 5px;
+    margin-right: 5px;
+    position: relatibve;
+    background-color: #322f46;
+    display: inline-block;;
+}
+
+#logo-compName{
+    display: inline-block;
+}
+.nav-links{
+    margin-right: 50px;
+    float: right;
+    display: inline-block;
+    font-size: 17px;
+    text-decoration-color: aquamarine;
+}
+.top-navbar :active{
+    background-color: #04AA6D;
+    color: white;
+}
+.nav-links a :hover{
+    background-color: azure;
+    display: inline-block;
+    float: right;
+}
+
+}
+ul{
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.en{
+    margin-left: 100px;
+    float: right;
+    display: inline-block;
+    position: fixed;
+    z-index: 99;
+    border: 20px;
+    border-radius: 70%;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    font-display: none;
+    float: right;
+    content-visibility:  ;
+}
+.wlc-message{
+
+}
+.wlc-message h1{
+
+}
+.MA-WD{
+    color: red;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    background-color: #4e5549;
+    margin-left: 40%;
+    margin-right: 40%;
+    
+    
+}
+.MA-WD h4{
+    position: relative;
+    font-size: medium;
+    font-weight: 10000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* exemple */
+.main-div{
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: inline-block;
+
+}
+.div3{
+
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+}
+   
+

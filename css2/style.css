@@ -1,0 +1,154 @@
+html{
+
+}
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px 10px 0px 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+}
+
+element.style {
+    background-image: url(../assets/img/bg_image_1.jpg);
+}
+
+
+
+/* Header display */
+.page-head{
+    padding: 10px 10px 0 10px;
+    padding-right: 20px;
+    width: auto;
+    height: 500px;
+    position: relative;
+    display: block;
+}
+
+.bg-image{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    position: absolute;
+}
+/* navigation bar */
+.navbar{
+    position: relative;
+    width:100% ;
+    height:50px;
+    background-color: rgb(143, 136, 150);
+    margin-top: 20px;
+    
+
+}
+/* Navigation items */
+.nav-items1{
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+
+.c-logo{
+    height: 40px;
+    width: 80px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+
+/* Navigation items 2 */
+.nav-items2{
+    position: absolute;
+    margin-top: 0.5px;
+    margin-left: 85px;
+        
+}
+.c-name{
+    color: red;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 5000;
+    font-family: serif;
+    
+}
+.m-ti{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 21px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+/* Navigation items 3 */
+.nav-items3{
+margin-left: 400px;
+position: absolute;
+
+}
+
+ul{
+    
+}
+
+.nav-link{
+    display: inline-block;
+    margin-right: 20px;
+}
+.nav-items4{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 90%;
+
+
+}
+
+/* Personal information */
+.about-me{
+    position: relative;
+    margin-top: 300px;
+}
+.about-me h1{
+    font-family: serif;
+    font-size: 50px;
+    size: 50px;
+}
+.wlc{
+    margin-top: 50px;
+    font-size: xx-large;
+    font-weight: 600;
+
+}
+.MA-WD{
+    color: red;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgb(245, 103, 103);
+    margin-left: 40%;
+    margin-right: 40%;
+    position: relative;
+}
+.MA-WD h4{
+    position:relative;
+    font-size:15px; 
+    display:flex;
+    font-style: normal;
+    font-size: medium;
+    
+}

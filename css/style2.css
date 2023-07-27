@@ -1,0 +1,75 @@
+.section1{
+    position: relative;
+    margin-top: 300px;
+    display: inline-block;
+}
+
+.img-set{
+    width:280px ;
+    height:350px ;
+    position:relative;
+    padding-left: 150px;
+
+}
+.frame{
+    width: 265px;
+    height:320px ;
+    position: absolute ;
+    margin-left: 50px;
+    border: solid red 5px;
+    margin-righ,t: 200px;
+
+
+}
+.img-shadow{
+    position: absolute;
+    margin-top: 30px;
+    width:280px ;
+    height: 330px ;
+    background-color: rgb(216, 209, 209);
+}
+img{
+    margin-top: 20px;
+    width:280px;
+    height: 280px ;
+    position: absolute;
+    image-rendering: crisp-edges;
+
+}
+.img-component{
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    margin-right: 100px;
+}
+.personal-info{
+    width: 450px;
+    height: auto;
+    display: inline-block;
+    margin-left: 100px;
+    
+
+}
+.f-name{
+    font-size: 35px;
+    font-family: sarif;
+    text-align: left;
+}
+.w-title{
+    font-size: 20px;
+    text-align: left; 
+}
+.resume{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border: solid red 2px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    
+}
+.a :hover{
+    background-color: rgb(233, 99, 99);
+}
+    
